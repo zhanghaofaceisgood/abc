@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.title('나의 첫 Streamlit 앱')
+st.title('‧₊˚⋅♡⋅˚₊‧')
 
 name = st.text_input('이름을 입력하세요:')
 
