@@ -20,6 +20,7 @@ st.markdown(
     unsafe_allow_html=True
 )
 
+st.markdown(
     """
     <style>
     /* 배경색 + 도트 */
