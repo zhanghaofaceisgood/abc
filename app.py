@@ -10,10 +10,11 @@ if st.button('안녕하세요'):
 st.markdown(
     """
     <style>
-        /* 전체 배경색 변경 */
-        .stApp {
-            background-color: #FCE0E6; /* 연한 핑크 */
-        }
+    .stApp {
+        background-color: #FFF4F7;
+        background-image: radial-gradient(#FADCE2 8%, transparent 8%);
+        background-size: 40px 40px; /* 점 간격 조절 */
+    }
     </style>
     """,
     unsafe_allow_html=True
