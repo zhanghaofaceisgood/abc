@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.title(' ꒰ ♡ ꒱ ')
+st.title(' ⋅˚₊‧ 𐙚 ‧₊˚ ⋅ ')
 
 name = st.text_input('이름')
 
