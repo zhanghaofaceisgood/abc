@@ -10,30 +10,32 @@ if st.button('안녕하세요'):
 st.markdown(
     """
     <style>
+    .stApp {
+        background-color: #FFF4F7;
+        background-image: radial-gradient(#FADCE2 8%, transparent 8%);
+        background-size: 40px 40px; /* 점 간격 조절 */
+    }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
 
-    /* 전체 배경색 - 아주 연한 핑크 */
-    body {
-        background-color: #FDF0F3;
+st.markdown(
+    """
+    <style>
+    /* 배경색 + 도트 */
+    .stApp {
+        background-color: #FFF4F7;
+        background-image: radial-gradient(#FADCE2 8%, transparent 8%);
+        background-size: 40px 40px;
     }
 
-    /* Streamlit 앱의 메인 컨테이너 배경색도 맞춰주기 */
-    .main {
-        background-color: #FDF0F3;
+    /* 제목 스타일 */
+    h1, h2, h3, .stMarkdown h1 {
+        font-weight: 700; /* 굵게 */
+        color: #E8A9B5;   /* 부드럽게 대비되는 핑크 */
+        text-shadow: 0px 0px 6px rgba(255, 255, 255, 0.7); /* 은근한 그림자 */
     }
-
-    /* 제목(H1) 스타일 */
-    h1 {
-        color: #E58CA2;        /* 배경보다 조금 더 진한 웜한 핑크 */
-        font-weight: 800;      /* 굵게 */
-        font-size: 2.4rem;     /* 크게 */
-    }
-
-    /* h2, h3 같은 다른 헤더도 비슷하게 */
-    h2, h3 {
-        color: #E58CA2;
-        font-weight: 700;
-    }
-
     </style>
     """,
     unsafe_allow_html=True
